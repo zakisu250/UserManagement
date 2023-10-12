@@ -12,7 +12,8 @@ import {
 } from 'react-query';
 import axios from 'axios';
 
-const API_ENDPOINT = 'http://localhost:3001/users';
+const API_ENDPOINT =
+  'https://user-management-backend-dkt7jq7r4-zakisu250.vercel.app/users';
 
 const queryClient = new QueryClient();
 
